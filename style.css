@@ -1,0 +1,28 @@
+.main .card img {
+    height: 337px;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+
+.box{
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn2{
+    width: 300px;
+}
+
+@media screen and (max-width: 500px){ 
+    .box {
+        width : 100vw;
+    }
+    .btn2 {
+        max-width: 200px;
+    }
+    
+}
